@@ -72,3 +72,26 @@ html,body{
     margin: 2px 0;
     padding: 5px 10px;
   }
+
+.file-upload-btn {
+  background-color: #1fd5ad;
+  border: solid 1px #1fd5ad;
+  border-radius: .25rem;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1.25;
+  margin: 0;
+  padding: .5rem .75rem;
+  transition: all .15s ease-in-out;
+}
+
+.file-upload-btn:hover,
+.file-upload-btn:focus {
+  background-color: #1CCAA1;
+  border: solid 1px #1CCAA1;
+}
+
+.file-upload {
+  display: none;
+}
